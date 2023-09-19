@@ -1,4 +1,5 @@
 # Title: WeeConnect
+![](figma-icon.png)
 # Idea:
     An all-in-one place to find people that have similar interests, join events or organize your own events. Where interests become community, career, friendships.
 # Merits: 
@@ -16,10 +17,10 @@
 
 # Pages:
 ## Homepage
-![Homepage](HomePage.png)
+![Homepage](./img/HomePage.png)
 
 ## Login/Register
-![Login/Register](Login-Register.png)
+![Login/Register](./img/Login-Register.png)
 
 ## Dashboard
-![Dashboard](Dashboard.png)
+![Dashboard](./img/Dashboard.png)
