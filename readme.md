@@ -17,10 +17,10 @@
 
 # Pages:
 ## Homepage
-![Homepage](./img/HomePage.png)
+![Homepage](docs/img/HomePage.png)
 
 ## Login/Register
-![Login/Register](./img/Login-Register.png)
+![Login/Register](docs/img/Login-Register.png)
 
 ## Dashboard
-![Dashboard](./img/Dashboard.png)
+![Dashboard](docs/img/Dashboard.png)
