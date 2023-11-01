@@ -3,7 +3,7 @@ export default function How() {
         <div className="py-20 px-12 flex flex-col justify-center">
             <h3 className="text-center text-3xl font-medium">How WEECONNECT Works</h3>
             <p className="text-center mt-3">Meet new people who share your interests through online and in<br /> person events. It’s free to create an account.</p>
-            <div className="flex justify-center gap-40 py-10">
+            <div className="flex justify-center gap-40 py-10 flex-wrap">
                 <div className="flex flex-col items-center w-4/12 text-center">
                     <img src="/join_group.png" alt="" />
                     <h3 className="text-emerald-700 text-xl">Join a group</h3>

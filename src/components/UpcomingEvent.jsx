@@ -2,8 +2,8 @@ import AvatarGroup from "./AvatarGroup";
 
 export default function UpcomingEvent() {
     return (
-        <div className="px-20 py-12">
-            <div className="flex justify-between items-center">
+        <div className="px-20 py-8">
+            <div className="sm:flex sm:justify-between sm:items-center">
                 <h3 className="my-6 text-3xl">Upcoming online events</h3>
                 <h3><a href="#" className="text-emerald-700">Explore more events</a></h3>
             </div>

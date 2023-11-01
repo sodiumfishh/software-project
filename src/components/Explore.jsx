@@ -1,9 +1,7 @@
-import React from 'react'
-
 export default function Explore() {
     return (
         <div className='py-4 px-20'>
-            <div className='flex items-center justify-between gap-10'>
+            <div className='flex items-center justify-between gap-10 flex-wrap'>
                 <div>
                     <img src="https://picsum.photos/id/27/400/200" alt="" className='rounded-xl' />
                     <a className='text-emerald-700 underline text-sm'>Lorem ipsum dolor sit amet consectetur!</a>

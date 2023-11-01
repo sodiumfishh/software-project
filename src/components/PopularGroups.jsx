@@ -5,7 +5,7 @@ export default function PopularGroups() {
                 <h3 className="my-6 text-3xl">Popular Groups</h3>
                 <h3><a href="#" className="text-emerald-700">Explore more groups</a></h3>
             </div>
-            <div className="flex justify-center gap-24">
+            <div className="flex flex-wrap justify-center gap-24">
                 <div className="px-4 py-2 rounded-lg border border-solid border-slate-600">
                     <div className="flex gap-2 py-4">
                         <img src="/group-1.png" alt="" className="col-span-1 row-span-2" />

@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import Explore from "./components/Explore"
+// import Explore from "./components/Explore"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import How from "./components/How"
@@ -15,9 +15,9 @@ export default function App() {
     <>
       <Header />
       <Join />
-      <Explore />
-      <How />
       <UpcomingEvent />
+      {/* <Explore /> */}
+      <How />
       <PopularGroups />
       <Footer />
     </>
