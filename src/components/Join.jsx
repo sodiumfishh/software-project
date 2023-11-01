@@ -4,7 +4,7 @@ export default function Join() {
             <div className='sm:w-1/2'>
                 <h3 className='text-5xl font-bold'>The people platform—Where interests become friendships</h3>
                 <p className='mt-8'>Whatever your interest, from hiking and reading to networking and skill sharing, there are thousands of people who share it on Meetup. Events are happening every day—sign up to join the fun.</p>
-                <a href="#" className="bg-emerald-700 text-slate-50 px-4 py-2 rounded-lg inline-block mt-5">Join WeeConnect</a>
+                <a href="#" className="bg-accent text-slate-50 px-4 py-2 rounded-lg inline-block mt-5">Join WeeConnect</a>
             </div>
             <img src="/img.png" alt="" className='w-96' />
         </div>

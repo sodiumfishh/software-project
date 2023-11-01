@@ -5,7 +5,7 @@ export default function Header() {
             <nav>
                 <ul className='flex justify-between items-center gap-6'>
                     <li>Log in</li>
-                    <li className='bg-emerald-700 px-4 py-2 rounded-lg text-slate-50'>Sign up</li>
+                    <li className='bg-accent px-4 py-2 rounded-lg text-slate-50'>Sign up</li>
                 </ul>
             </nav>
         </header>
