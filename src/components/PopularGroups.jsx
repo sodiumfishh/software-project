@@ -1,8 +1,8 @@
 export default function PopularGroups() {
     return (
-        <div className="px-20 py-10">
-            <div className="flex justify-between items-center">
-                <h3 className="my-6 text-3xl">Popular Groups</h3>
+        <div className="sm:px-20 px-4 py-10">
+            <div className="flex justify-between items-center py-5">
+                <h3 className="text-3xl">Popular Groups</h3>
                 <h3><a href="#" className="text-accent">Explore more groups</a></h3>
             </div>
             <div className="flex justify-center gap-4 flex-wrap">
