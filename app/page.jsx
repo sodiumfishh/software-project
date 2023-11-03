@@ -1,5 +1,4 @@
-import { useEffect } from "react"
-// import Explore from "./components/Explore"
+// import Explore from "./components / Explore"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import How from "./components/How"
@@ -8,9 +7,6 @@ import PopularGroups from "./components/PopularGroups"
 import UpcomingEvent from "./components/UpcomingEvent"
 
 export default function App() {
-  useEffect(() => {
-    document.title = "Home | WeeConnect"
-  }, [])
   return (
     <>
       <Header />
