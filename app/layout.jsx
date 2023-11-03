@@ -1,7 +1,7 @@
 import "./globals.css"
 
 export const metadata = {
-  title: 'Home | WeeConnect',
+  title: 'WeeConnect',
   description: 'Connecting people with similar interests',
 }
 
