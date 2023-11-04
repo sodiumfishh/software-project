@@ -1,4 +1,7 @@
+import { ClerkProvider } from '@clerk/nextjs'
+
 import "./globals.css"
+import Header from './components/Header'
 
 export const metadata = {
   title: 'WeeConnect',
@@ -7,10 +10,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <div id="root">{children}</div>
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body>
+          <Header />
+          <div id="root">{children}</div>
+        </body>
+      </html>
+    </ClerkProvider>
   )
 }

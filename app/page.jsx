@@ -9,7 +9,6 @@ import UpcomingEvent from "./components/UpcomingEvent"
 export default function App() {
   return (
     <>
-      <Header />
       <Join />
       <UpcomingEvent />
       {/* <Explore /> */}
