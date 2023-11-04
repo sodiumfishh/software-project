@@ -14,7 +14,9 @@ export default function Header() {
                 <nav>
                     <ul className='flex justify-between items-center gap-6'>
                         <SignedOut>
-                            <SignIn redirectUrl="/dashboard" />
+                            <SignIn redirectUrl="/dashboard">
+                                <button className="bg-accent text-slate-50 px-4 py-2 rounded-lg">Sign In</button>
+                            </SignIn>
                         </SignedOut>
                         <SignedIn>
                             <UserButton afterSignOutUrl="/" />
