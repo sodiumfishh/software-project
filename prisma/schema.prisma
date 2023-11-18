@@ -12,14 +12,14 @@ datasource db {
 }
 
 model Event {
-  id           Int      @id @default(autoincrement())
-  title        String   @db.VarChar(255)
-  description  String   @db.Text
-  status       Status   @default(PENDING)
-  eventStart   DateTime
-  eventEnd     DateTime
-  eventCreated DateTime @default(now())
-  eventUpdated DateTime @updatedAt
+  id           Int       @id @default(autoincrement())
+  title        String    @db.VarChar(255)
+  description  String    @db.Text
+  status       Status    @default(PENDING)
+  eventStart   DateTime?
+  eventEnd     DateTime?
+  eventCreated DateTime  @default(now())
+  eventUpdated DateTime  @updatedAt
 }
 
 enum Status {
